@@ -1,1 +1,1 @@
-deck2 contents: 0 3 5 2 4 
+deck2 contents: 3 5 

@@ -18,23 +18,28 @@ public class Player extends Thread implements Runnable {
  private volatile boolean gameOver = false; //***flag to stop the players loop***
 
  
- public Player(int playerId, CardDeck leftDeck, CardDeck rightDeck) {
+ public Player(int playerId) {
      this.playerId = playerId;
      this.hand = new ArrayList<>(4);  // A player starts with 4 cards
-     this.leftDeck = leftDeck;
-     this.rightDeck = rightDeck;
+  
      
+ }
+ 
+ public void setLeftDeck(CardDeck leftDeck) {
+	 this.leftDeck = leftDeck;
+ }
+ 
+ public void setRightDeck(CardDeck rightDeck) {
+	 this.rightDeck = rightDeck;
  }
  
  public List<Card> getHand() {	//needed to log players logs at the end
      return hand;
  }
  
- private synchronized void drawAndDiscard() {
-	 drawCard();
-	 discardCard();
+ public void dealCard(Card card) {
+	 hand.add(card);
  }
- 
  public int getPlayerID() {
      return playerId;
  }
@@ -73,7 +78,7 @@ public class Player extends Thread implements Runnable {
         	    Thread.sleep(10);
         }
 
-         LogWriter.writeFinalHandToFile(this, "exits");
+         //LogWriter.writeFinalHandToFile(this, "exits");
      } catch (InterruptedException e) {
     	 Thread.currentThread().interrupt();
      }
@@ -97,41 +102,6 @@ public class Player extends Thread implements Runnable {
      return cardCounts.containsValue(4);
  }
 
- synchronized void drawCard() {
-	    // Draw a card from the leftDeck
-	    Card card = leftDeck.drawCard();
-	    if (card == null) {
-	        System.out.println("Deck is empty. Cannot draw a card.");
-	        return;
-	    }
-	    // Add the drawn card to the player's hand
-	    hand.add(card);
-	    System.out.println("Player " + playerId + " draws a " + card.getValue() + " from deck " + leftDeck.getDeckId());
-	    LogWriter.writeToFile(this, "draws", card);
-	}
-
-synchronized void discardCard() {
-	    Card discardedCard = null;
-	    
-	    // Find a card to discard
-	    for (Card card : hand) {
-	        if (card.getValue() != playerId) {  // Discard a card that is not of the player's preferred denomination
-	            discardedCard = card;
-	            break;
-	        }
-	    }
-	    
-	    // If a valid card is found to discard
-	    if (discardedCard != null) {
-	        hand.remove(discardedCard);  // Remove the discarded card from the player's hand
-	        rightDeck.discardCard(discardedCard);  // Discard the card to the rightDeck
-	        System.out.println("Player " + playerId + " discards a " + discardedCard.getValue() + " to deck " + rightDeck.getDeckId());
-	        LogWriter.writeToFile(this, "discards", discardedCard);
-	    } else {
-	        // Handle case where no valid card is found to discard
-	        System.out.println("Player " + playerId + " has no card to discard.");
-	    }
-	}
 
 	
 
