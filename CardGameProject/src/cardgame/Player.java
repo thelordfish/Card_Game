@@ -2,8 +2,14 @@
 package cardgame;
 
 import java.util.*;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
-public class Player extends Thread {
+/*
+ * C:\Users\Ollie Appleby\git\Card_Game\CardGameProject\pack.txt
+ */
+
+public class Player extends Thread implements Runnable {
  private int playerId;  // The ID of the player (1, 2, ... n)
  private List<Card> hand;  // List of cards that the player holds
  private CardDeck leftDeck;  // The deck from which the player draws
@@ -11,6 +17,7 @@ public class Player extends Thread {
  
  private volatile boolean gameOver = false; //***flag to stop the players loop***
 
+ 
  public Player(int playerId, CardDeck leftDeck, CardDeck rightDeck) {
      this.playerId = playerId;
      this.hand = new ArrayList<>(4);  // A player starts with 4 cards
@@ -23,6 +30,10 @@ public class Player extends Thread {
      return hand;
  }
  
+ private synchronized void drawAndDiscard() {
+	 drawCard();
+	 discardCard();
+ }
  
  public int getPlayerID() {
      return playerId;
@@ -32,7 +43,7 @@ public class Player extends Thread {
  public void run() {
      try {
     	 
-    	 LogWriter.writeInitialHandToFile(this);
+    	 LogWriter.writeInitialHandToFile(this);	//starting hand written to player log
     	 
          // If the player starts with 4 identical cards, they win
          if (checkForWin()) {
@@ -42,29 +53,31 @@ public class Player extends Thread {
              return;
          }
 
-         // Game continues if the player doesn't win initially
+         
+         
+         
+			// Game continues if the player doesn't win initially
          while (!gameOver) {
-             drawCard();
-             discardCard();
-             
-             if(gameOver) break; //check new hand after drawing AND discarding
-             
-             if (checkForWin()) {
-                 System.out.println("Player " + playerId + " wins");
-                 Messager.notifyOtherPlayers(this);
-                 LogWriter.writeFinalHandToFile(this, "wins");
-                 break;
-             }
-             Thread.sleep(500);  // Add a small delay for simulation
-         }
-         
+        	 Turn.takeTurn(this, leftDeck, rightDeck);
+
+        	    if (gameOver) break;
+
+        	    if (checkForWin()) {
+        	        System.out.println("Player " + playerId + " wins");
+        	        Messager.notifyOtherPlayers(this);
+        	        Thread.sleep(50);  //gives time for the message to be processed
+        	        LogWriter.writeFinalHandToFile(this, "wins");
+        	        break;
+        	    }
+
+        	    Thread.sleep(10);
+        }
+
          LogWriter.writeFinalHandToFile(this, "exits");
-         
      } catch (InterruptedException e) {
     	 Thread.currentThread().interrupt();
-         e.printStackTrace();
      }
- }
+     }
 
  // observer pattern method from GameObserver interface- stops the player when another player wins
 
@@ -84,7 +97,7 @@ public class Player extends Thread {
      return cardCounts.containsValue(4);
  }
 
- private void drawCard() {
+ synchronized void drawCard() {
 	    // Draw a card from the leftDeck
 	    Card card = leftDeck.drawCard();
 	    if (card == null) {
@@ -97,7 +110,7 @@ public class Player extends Thread {
 	    LogWriter.writeToFile(this, "draws", card);
 	}
 
-	private void discardCard() {
+synchronized void discardCard() {
 	    Card discardedCard = null;
 	    
 	    // Find a card to discard

@@ -1,0 +1,486 @@
+player 1 initial hand: 
+Player 1 draws a 3
+Player 1 discards a 3
+Player 1 draws a 5
+Player 1 discards a 5
+Player 1 draws a 8
+Player 1 discards a 8
+Player 1 draws a 2
+Player 1 discards a 2
+Player 1 draws a 7
+Player 1 discards a 7
+Player 1 draws a 6
+Player 1 discards a 6
+Player 1 draws a 1
+Player 1 draws a 9
+Player 1 discards a 9
+Player 1 draws a 7
+Player 1 discards a 7
+Player 1 draws a 6
+Player 1 discards a 6
+Player 1 draws a 1
+Player 1 draws a 9
+Player 1 discards a 9
+Player 1 draws a 4
+Player 1 discards a 4
+Player 1 draws a 3
+Player 1 discards a 3
+Player 1 draws a 5
+Player 1 discards a 5
+Player 1 draws a 1
+Player 1 draws a 9
+Player 1 discards a 9
+Player 1 draws a 4
+Player 1 discards a 4
+Player 1 draws a 0
+Player 1 discards a 0
+Player 1 draws a 3
+Player 1 discards a 3
+Player 1 draws a 5
+Player 1 discards a 5
+Player 1 draws a 2
+Player 1 discards a 2
+Player 1 draws a 4
+Player 1 discards a 4
+player 5 has informed player 1 that player 5 has won
+player 1 exits
+player 1 final hand: 1 1 1
+player 1 exits
+player 1 final hand: 1 1 1
+player 1 initial hand: 
+Player 1 draws a 3
+Player 1 discards a 3
+Player 1 draws a 5
+Player 1 discards a 5
+Player 1 draws a 8
+Player 1 discards a 8
+Player 1 draws a 2
+Player 1 discards a 2
+Player 1 draws a 7
+Player 1 discards a 7
+Player 1 draws a 6
+Player 1 discards a 6
+Player 1 draws a 1
+Player 1 draws a 9
+Player 1 discards a 9
+Player 1 draws a 7
+Player 1 discards a 7
+Player 1 draws a 6
+Player 1 discards a 6
+Player 1 draws a 1
+Player 1 draws a 9
+Player 1 discards a 9
+Player 1 draws a 4
+Player 1 discards a 4
+Player 1 draws a 3
+Player 1 discards a 3
+Player 1 draws a 5
+Player 1 discards a 5
+Player 1 draws a 1
+Player 1 draws a 9
+Player 1 discards a 9
+Player 1 draws a 4
+Player 1 discards a 4
+Player 1 draws a 0
+Player 1 discards a 0
+Player 1 draws a 3
+Player 1 discards a 3
+Player 1 draws a 5
+Player 1 discards a 5
+Player 1 draws a 2
+Player 1 discards a 2
+Player 1 draws a 4
+Player 1 discards a 4
+player 5 has informed player 1 that player 5 has won
+player 1 exits
+player 1 final hand: 1 1 1
+player 1 exits
+player 1 final hand: 1 1 1
+player 1 initial hand: 
+Player 1 draws a 3
+Player 1 discards a 3
+Player 1 draws a 5
+Player 1 discards a 5
+Player 1 draws a 8
+Player 1 discards a 8
+Player 1 draws a 2
+Player 1 discards a 2
+Player 1 draws a 7
+Player 1 discards a 7
+Player 1 draws a 6
+Player 1 discards a 6
+Player 1 draws a 1
+Player 1 draws a 9
+Player 1 discards a 9
+Player 1 draws a 7
+Player 1 discards a 7
+Player 1 draws a 6
+Player 1 discards a 6
+Player 1 draws a 1
+Player 1 draws a 9
+Player 1 discards a 9
+Player 1 draws a 4
+Player 1 discards a 4
+Player 1 draws a 3
+Player 1 discards a 3
+Player 1 draws a 5
+Player 1 discards a 5
+Player 1 draws a 1
+Player 1 draws a 9
+Player 1 discards a 9
+Player 1 draws a 4
+Player 1 discards a 4
+Player 1 draws a 0
+Player 1 discards a 0
+Player 1 draws a 3
+Player 1 discards a 3
+Player 1 draws a 5
+Player 1 discards a 5
+Player 1 draws a 2
+Player 1 discards a 2
+player 5 has informed player 1 that player 5 has won
+player 1 exits
+player 1 final hand: 1 1 1
+player 1 exits
+player 1 final hand: 1 1 1
+player 1 initial hand: 
+Player 1 draws a 3
+Player 1 discards a 3
+Player 1 draws a 5
+Player 1 discards a 5
+Player 1 draws a 8
+Player 1 discards a 8
+Player 1 draws a 2
+Player 1 discards a 2
+Player 1 draws a 7
+Player 1 discards a 7
+Player 1 draws a 6
+Player 1 discards a 6
+Player 1 draws a 1
+Player 1 draws a 9
+Player 1 discards a 9
+Player 1 draws a 7
+Player 1 discards a 7
+Player 1 draws a 6
+Player 1 discards a 6
+Player 1 draws a 1
+Player 1 draws a 9
+Player 1 discards a 9
+Player 1 draws a 4
+Player 1 discards a 4
+Player 1 draws a 3
+Player 1 discards a 3
+Player 1 draws a 5
+Player 1 discards a 5
+Player 1 draws a 1
+Player 1 draws a 9
+Player 1 discards a 9
+Player 1 draws a 4
+Player 1 discards a 4
+Player 1 draws a 0
+Player 1 discards a 0
+Player 1 draws a 3
+Player 1 discards a 3
+Player 1 draws a 5
+Player 1 discards a 5
+Player 1 draws a 2
+Player 1 discards a 2
+Player 1 draws a 4
+Player 1 discards a 4
+player 5 has informed player 1 that player 5 has won
+player 1 exits
+player 1 final hand: 1 1 1
+player 1 exits
+player 1 final hand: 1 1 1
+player 1 initial hand: 
+Player 1 draws a 3
+Player 1 discards a 3
+Player 1 draws a 5
+Player 1 discards a 5
+Player 1 draws a 8
+Player 1 discards a 8
+Player 1 draws a 2
+Player 1 discards a 2
+Player 1 draws a 7
+Player 1 discards a 7
+Player 1 draws a 6
+Player 1 discards a 6
+Player 1 draws a 1
+Player 1 draws a 9
+Player 1 discards a 9
+Player 1 draws a 7
+Player 1 discards a 7
+Player 1 draws a 6
+Player 1 discards a 6
+Player 1 draws a 1
+Player 1 draws a 9
+Player 1 discards a 9
+Player 1 draws a 4
+Player 1 discards a 4
+Player 1 draws a 3
+Player 1 discards a 3
+Player 1 draws a 5
+Player 1 discards a 5
+Player 1 draws a 1
+Player 1 draws a 9
+Player 1 discards a 9
+Player 1 draws a 4
+Player 1 discards a 4
+Player 1 draws a 0
+Player 1 discards a 0
+Player 1 draws a 3
+Player 1 discards a 3
+Player 1 draws a 5
+Player 1 discards a 5
+Player 1 draws a 2
+Player 1 discards a 2
+Player 1 draws a 4
+Player 1 discards a 4
+player 5 has informed player 1 that player 5 has won
+player 1 exits
+player 1 final hand: 1 1 1
+player 1 exits
+player 1 final hand: 1 1 1
+player 1 initial hand: 
+Player 1 draws a 3
+Player 1 discards a 3
+Player 1 draws a 5
+Player 1 discards a 5
+Player 1 draws a 8
+Player 1 discards a 8
+Player 1 draws a 2
+Player 1 discards a 2
+Player 1 draws a 7
+Player 1 discards a 7
+Player 1 draws a 6
+Player 1 discards a 6
+Player 1 draws a 1
+Player 1 draws a 9
+Player 1 discards a 9
+Player 1 draws a 7
+Player 1 discards a 7
+Player 1 draws a 6
+Player 1 discards a 6
+Player 1 draws a 1
+Player 1 draws a 9
+Player 1 discards a 9
+Player 1 draws a 4
+Player 1 discards a 4
+Player 1 draws a 3
+Player 1 discards a 3
+Player 1 draws a 5
+Player 1 discards a 5
+Player 1 draws a 1
+Player 1 draws a 9
+Player 1 discards a 9
+Player 1 draws a 4
+Player 1 discards a 4
+Player 1 draws a 0
+Player 1 discards a 0
+Player 1 draws a 3
+Player 1 discards a 3
+Player 1 draws a 5
+Player 1 discards a 5
+Player 1 draws a 2
+Player 1 discards a 2
+Player 1 draws a 4
+Player 1 discards a 4
+player 8 has informed player 1 that player 8 has won
+player 1 exits
+player 1 final hand: 1 1 1
+player 1 exits
+player 1 final hand: 1 1 1
+player 1 initial hand: 
+Player 1 draws a 3
+Player 1 discards a 3
+player 1 exits
+player 1 final hand: 
+player 1 initial hand: 
+player 1 initial hand: 
+Player 1 draws a 3
+Player 1 discards a 3
+Player 1 draws a 5
+Player 1 discards a 5
+Player 1 draws a 8
+Player 1 discards a 8
+Player 1 draws a 2
+Player 1 discards a 2
+Player 1 draws a 7
+Player 1 discards a 7
+Player 1 draws a 6
+Player 1 discards a 6
+Player 1 draws a 1
+Player 1 draws a 9
+Player 1 discards a 9
+Player 1 draws a 7
+Player 1 discards a 7
+Player 1 draws a 6
+Player 1 discards a 6
+Player 1 draws a 1
+Player 1 draws a 9
+Player 1 discards a 9
+Player 1 draws a 4
+Player 1 discards a 4
+Player 1 draws a 3
+Player 1 discards a 3
+Player 1 draws a 5
+Player 1 discards a 5
+Player 1 draws a 1
+Player 1 draws a 9
+Player 1 discards a 9
+Player 1 draws a 4
+Player 1 discards a 4
+Player 1 draws a 0
+Player 1 discards a 0
+Player 1 draws a 3
+Player 1 discards a 3
+Player 1 draws a 5
+Player 1 discards a 5
+Player 1 draws a 2
+Player 1 discards a 2
+Player 1 draws a 4
+Player 1 discards a 4
+Player 1 draws a 1
+player 1 wins
+player 1 final hand: 1 1 1 1
+player 1 exits
+player 1 final hand: 1 1 1 1
+player 1 initial hand: 
+Player 1 draws a 3
+Player 1 discards a 3
+Player 1 draws a 5
+Player 1 discards a 5
+Player 1 draws a 8
+Player 1 discards a 8
+Player 1 draws a 2
+Player 1 discards a 2
+Player 1 draws a 7
+Player 1 discards a 7
+Player 1 draws a 6
+Player 1 discards a 6
+Player 1 draws a 1
+Player 1 draws a 9
+Player 1 discards a 9
+Player 1 draws a 7
+Player 1 discards a 7
+Player 1 draws a 6
+Player 1 discards a 6
+Player 1 draws a 1
+Player 1 draws a 9
+Player 1 discards a 9
+Player 1 draws a 4
+Player 1 discards a 4
+Player 1 draws a 3
+Player 1 discards a 3
+Player 1 draws a 5
+Player 1 discards a 5
+Player 1 draws a 1
+Player 1 draws a 9
+Player 1 discards a 9
+Player 1 draws a 4
+Player 1 discards a 4
+Player 1 draws a 0
+Player 1 discards a 0
+Player 1 draws a 3
+Player 1 discards a 3
+Player 1 draws a 5
+Player 1 discards a 5
+Player 1 draws a 2
+Player 1 discards a 2
+Player 1 draws a 4
+Player 1 discards a 4
+player 5 has informed player 1 that player 5 has won
+player 1 exits
+player 1 final hand: 1 1 1
+player 1 exits
+player 1 final hand: 1 1 1
+player 1 initial hand: 
+Player 1 draws a 3
+Player 1 discards a 3
+Player 1 draws a 5
+Player 1 discards a 5
+Player 1 draws a 8
+Player 1 discards a 8
+Player 1 draws a 2
+Player 1 discards a 2
+Player 1 draws a 7
+Player 1 discards a 7
+Player 1 draws a 6
+Player 1 discards a 6
+Player 1 draws a 1
+Player 1 draws a 9
+Player 1 discards a 9
+Player 1 draws a 7
+Player 1 discards a 7
+Player 1 draws a 6
+Player 1 discards a 6
+Player 1 draws a 1
+Player 1 draws a 9
+Player 1 discards a 9
+Player 1 draws a 4
+Player 1 discards a 4
+Player 1 draws a 3
+Player 1 discards a 3
+Player 1 draws a 5
+Player 1 discards a 5
+Player 1 draws a 1
+Player 1 draws a 9
+Player 1 discards a 9
+Player 1 draws a 4
+Player 1 discards a 4
+Player 1 draws a 0
+Player 1 discards a 0
+player 5 has informed player 1 that player 5 has won
+player 1 exits
+player 1 final hand: 1 1 1
+player 1 exits
+player 1 final hand: 1 1 1
+player 1 initial hand: 
+Player 1 draws a 3
+Player 1 discards a 3
+Player 1 draws a 5
+Player 1 discards a 5
+Player 1 draws a 8
+Player 1 discards a 8
+Player 1 draws a 2
+Player 1 discards a 2
+Player 1 draws a 7
+Player 1 discards a 7
+Player 1 draws a 6
+Player 1 discards a 6
+Player 1 draws a 1
+Player 1 draws a 9
+Player 1 discards a 9
+Player 1 draws a 7
+Player 1 discards a 7
+Player 1 draws a 6
+Player 1 discards a 6
+Player 1 draws a 1
+Player 1 draws a 9
+Player 1 discards a 9
+Player 1 draws a 4
+Player 1 discards a 4
+Player 1 draws a 3
+Player 1 discards a 3
+Player 1 draws a 5
+Player 1 discards a 5
+Player 1 draws a 1
+Player 1 draws a 9
+Player 1 discards a 9
+Player 1 draws a 4
+Player 1 discards a 4
+Player 1 draws a 0
+Player 1 discards a 0
+Player 1 draws a 3
+Player 1 discards a 3
+Player 1 draws a 5
+Player 1 discards a 5
+Player 1 draws a 2
+Player 1 discards a 2
+Player 1 draws a 4
+Player 1 discards a 4
+Player 1 draws a 1
+player 1 wins
+player 1 final hand: 1 1 1 1
+player 1 exits
+player 1 final hand: 1 1 1 1

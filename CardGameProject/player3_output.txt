@@ -1,0 +1,484 @@
+player 3 initial hand: 
+Player 3 draws a 1
+Player 3 discards a 1
+Player 3 draws a 9
+Player 3 discards a 9
+Player 3 draws a 4
+Player 3 discards a 4
+Player 3 draws a 0
+Player 3 discards a 0
+Player 3 draws a 3
+Player 3 draws a 5
+Player 3 discards a 5
+Player 3 draws a 8
+Player 3 discards a 8
+Player 3 draws a 2
+Player 3 discards a 2
+Player 3 draws a 4
+Player 3 discards a 4
+Player 3 draws a 1
+Player 3 discards a 1
+Player 3 draws a 3
+Player 3 draws a 5
+Player 3 discards a 5
+Player 3 draws a 8
+Player 3 discards a 8
+Player 3 draws a 7
+Player 3 discards a 7
+Player 3 draws a 6
+Player 3 discards a 6
+Player 3 draws a 3
+Player 3 draws a 5
+Player 3 discards a 5
+Player 3 draws a 8
+Player 3 discards a 8
+Player 3 draws a 7
+Player 3 discards a 7
+Player 3 draws a 6
+Player 3 discards a 6
+Player 3 draws a 9
+Player 3 discards a 9
+Player 3 draws a 7
+Player 3 discards a 7
+Player 3 draws a 6
+Player 3 discards a 6
+player 5 has informed player 3 that player 5 has won
+player 3 exits
+player 3 final hand: 3 3 3
+player 3 exits
+player 3 final hand: 3 3 3
+player 3 initial hand: 
+Player 3 draws a 1
+Player 3 discards a 1
+Player 3 draws a 9
+Player 3 discards a 9
+Player 3 draws a 4
+Player 3 discards a 4
+Player 3 draws a 0
+Player 3 discards a 0
+Player 3 draws a 3
+Player 3 draws a 5
+Player 3 discards a 5
+Player 3 draws a 8
+Player 3 discards a 8
+Player 3 draws a 2
+Player 3 discards a 2
+Player 3 draws a 4
+Player 3 discards a 4
+Player 3 draws a 1
+Player 3 discards a 1
+Player 3 draws a 3
+Player 3 draws a 5
+Player 3 discards a 5
+Player 3 draws a 8
+Player 3 discards a 8
+Player 3 draws a 7
+Player 3 discards a 7
+Player 3 draws a 6
+Player 3 discards a 6
+Player 3 draws a 3
+Player 3 draws a 5
+Player 3 discards a 5
+Player 3 draws a 8
+Player 3 discards a 8
+Player 3 draws a 7
+Player 3 discards a 7
+Player 3 draws a 6
+Player 3 discards a 6
+Player 3 draws a 9
+Player 3 discards a 9
+Player 3 draws a 7
+Player 3 discards a 7
+Player 3 draws a 6
+Player 3 discards a 6
+player 5 has informed player 3 that player 5 has won
+player 3 exits
+player 3 final hand: 3 3 3
+player 3 exits
+player 3 final hand: 3 3 3
+player 3 initial hand: 
+Player 3 draws a 1
+Player 3 discards a 1
+Player 3 draws a 9
+Player 3 discards a 9
+Player 3 draws a 4
+Player 3 discards a 4
+Player 3 draws a 0
+Player 3 discards a 0
+Player 3 draws a 3
+Player 3 draws a 5
+Player 3 discards a 5
+Player 3 draws a 8
+Player 3 discards a 8
+Player 3 draws a 2
+Player 3 discards a 2
+Player 3 draws a 4
+Player 3 discards a 4
+Player 3 draws a 1
+Player 3 discards a 1
+Player 3 draws a 3
+Player 3 draws a 5
+Player 3 discards a 5
+Player 3 draws a 8
+Player 3 discards a 8
+Player 3 draws a 7
+Player 3 discards a 7
+Player 3 draws a 6
+Player 3 discards a 6
+Player 3 draws a 3
+Player 3 draws a 5
+Player 3 discards a 5
+Player 3 draws a 8
+Player 3 discards a 8
+Player 3 draws a 7
+Player 3 discards a 7
+Player 3 draws a 6
+Player 3 discards a 6
+Player 3 draws a 9
+Player 3 discards a 9
+Player 3 draws a 7
+Player 3 discards a 7
+player 5 has informed player 3 that player 5 has won
+player 3 exits
+player 3 final hand: 3 3 3
+player 3 exits
+player 3 final hand: 3 3 3
+player 3 initial hand: 
+Player 3 draws a 1
+Player 3 discards a 1
+Player 3 draws a 9
+Player 3 discards a 9
+Player 3 draws a 4
+Player 3 discards a 4
+Player 3 draws a 0
+Player 3 discards a 0
+Player 3 draws a 3
+Player 3 draws a 5
+Player 3 discards a 5
+Player 3 draws a 8
+Player 3 discards a 8
+Player 3 draws a 2
+Player 3 discards a 2
+Player 3 draws a 4
+Player 3 discards a 4
+Player 3 draws a 1
+Player 3 discards a 1
+Player 3 draws a 3
+Player 3 draws a 5
+Player 3 discards a 5
+Player 3 draws a 8
+Player 3 discards a 8
+Player 3 draws a 7
+Player 3 discards a 7
+Player 3 draws a 6
+Player 3 discards a 6
+Player 3 draws a 3
+Player 3 draws a 5
+Player 3 discards a 5
+Player 3 draws a 8
+Player 3 discards a 8
+Player 3 draws a 7
+Player 3 discards a 7
+Player 3 draws a 6
+Player 3 discards a 6
+Player 3 draws a 9
+Player 3 discards a 9
+Player 3 draws a 7
+Player 3 discards a 7
+player 5 has informed player 3 that player 5 has won
+player 3 exits
+player 3 final hand: 3 3 3
+player 3 exits
+player 3 final hand: 3 3 3
+player 3 initial hand: 
+Player 3 draws a 1
+Player 3 discards a 1
+Player 3 draws a 9
+Player 3 discards a 9
+Player 3 draws a 4
+Player 3 discards a 4
+Player 3 draws a 0
+Player 3 discards a 0
+Player 3 draws a 3
+Player 3 draws a 5
+Player 3 discards a 5
+Player 3 draws a 8
+Player 3 discards a 8
+Player 3 draws a 2
+Player 3 discards a 2
+Player 3 draws a 4
+Player 3 discards a 4
+Player 3 draws a 1
+Player 3 discards a 1
+Player 3 draws a 3
+Player 3 draws a 5
+Player 3 discards a 5
+Player 3 draws a 8
+Player 3 discards a 8
+Player 3 draws a 7
+Player 3 discards a 7
+Player 3 draws a 6
+Player 3 discards a 6
+Player 3 draws a 3
+Player 3 draws a 5
+Player 3 discards a 5
+Player 3 draws a 8
+Player 3 discards a 8
+Player 3 draws a 7
+Player 3 discards a 7
+Player 3 draws a 6
+Player 3 discards a 6
+Player 3 draws a 9
+Player 3 discards a 9
+Player 3 draws a 7
+Player 3 discards a 7
+Player 3 draws a 6
+Player 3 discards a 6
+player 5 has informed player 3 that player 5 has won
+player 3 exits
+player 3 final hand: 3 3 3
+player 3 exits
+player 3 final hand: 3 3 3
+player 3 initial hand: 
+Player 3 draws a 1
+Player 3 discards a 1
+Player 3 draws a 9
+Player 3 discards a 9
+Player 3 draws a 4
+Player 3 discards a 4
+Player 3 draws a 0
+Player 3 discards a 0
+Player 3 draws a 3
+Player 3 draws a 5
+Player 3 discards a 5
+Player 3 draws a 8
+Player 3 discards a 8
+Player 3 draws a 2
+Player 3 discards a 2
+Player 3 draws a 4
+Player 3 discards a 4
+Player 3 draws a 1
+Player 3 discards a 1
+Player 3 draws a 3
+Player 3 draws a 5
+Player 3 discards a 5
+Player 3 draws a 8
+Player 3 discards a 8
+Player 3 draws a 7
+Player 3 discards a 7
+Player 3 draws a 6
+Player 3 discards a 6
+Player 3 draws a 3
+Player 3 draws a 5
+Player 3 discards a 5
+Player 3 draws a 8
+Player 3 discards a 8
+Player 3 draws a 7
+Player 3 discards a 7
+Player 3 draws a 6
+Player 3 discards a 6
+Player 3 draws a 9
+Player 3 discards a 9
+Player 3 draws a 7
+Player 3 discards a 7
+Player 3 draws a 6
+Player 3 discards a 6
+Player 3 draws a 9
+Player 3 discards a 9
+player 8 has informed player 3 that player 8 has won
+player 3 exits
+player 3 final hand: 3 3 3
+player 3 exits
+player 3 final hand: 3 3 3
+player 3 initial hand: 
+Player 3 draws a 1
+Player 3 discards a 1
+player 3 exits
+player 3 final hand: 
+player 3 initial hand: 
+player 3 initial hand: 
+Player 3 draws a 1
+Player 3 discards a 1
+Player 3 draws a 9
+Player 3 discards a 9
+Player 3 draws a 4
+Player 3 discards a 4
+Player 3 draws a 0
+Player 3 discards a 0
+Player 3 draws a 3
+Player 3 draws a 5
+Player 3 discards a 5
+Player 3 draws a 8
+Player 3 discards a 8
+Player 3 draws a 2
+Player 3 discards a 2
+Player 3 draws a 4
+Player 3 discards a 4
+Player 3 draws a 1
+Player 3 discards a 1
+Player 3 draws a 3
+Player 3 draws a 5
+Player 3 discards a 5
+Player 3 draws a 8
+Player 3 discards a 8
+Player 3 draws a 7
+Player 3 discards a 7
+Player 3 draws a 6
+Player 3 discards a 6
+Player 3 draws a 3
+Player 3 draws a 5
+Player 3 discards a 5
+Player 3 draws a 8
+Player 3 discards a 8
+Player 3 draws a 7
+Player 3 discards a 7
+Player 3 draws a 6
+Player 3 discards a 6
+Player 3 draws a 9
+Player 3 discards a 9
+player 1 has informed player 3 that player 1 has won
+player 3 exits
+player 3 final hand: 3 3 3
+player 3 exits
+player 3 final hand: 3 3 3
+player 3 initial hand: 
+Player 3 draws a 1
+Player 3 discards a 1
+Player 3 draws a 9
+Player 3 discards a 9
+Player 3 draws a 4
+Player 3 discards a 4
+Player 3 draws a 0
+Player 3 discards a 0
+Player 3 draws a 3
+Player 3 draws a 5
+Player 3 discards a 5
+Player 3 draws a 8
+Player 3 discards a 8
+Player 3 draws a 2
+Player 3 discards a 2
+Player 3 draws a 4
+Player 3 discards a 4
+Player 3 draws a 1
+Player 3 discards a 1
+Player 3 draws a 3
+Player 3 draws a 5
+Player 3 discards a 5
+Player 3 draws a 8
+Player 3 discards a 8
+Player 3 draws a 7
+Player 3 discards a 7
+Player 3 draws a 6
+Player 3 discards a 6
+Player 3 draws a 3
+Player 3 draws a 5
+Player 3 discards a 5
+Player 3 draws a 8
+Player 3 discards a 8
+Player 3 draws a 7
+Player 3 discards a 7
+Player 3 draws a 6
+Player 3 discards a 6
+Player 3 draws a 9
+Player 3 discards a 9
+Player 3 draws a 7
+Player 3 discards a 7
+Player 3 draws a 6
+Player 3 discards a 6
+Player 3 draws a 9
+Player 3 discards a 9
+player 5 has informed player 3 that player 5 has won
+player 3 exits
+player 3 final hand: 3 3 3
+player 3 exits
+player 3 final hand: 3 3 3
+player 3 initial hand: 
+Player 3 draws a 1
+Player 3 discards a 1
+Player 3 draws a 9
+Player 3 discards a 9
+Player 3 draws a 4
+Player 3 discards a 4
+Player 3 draws a 0
+Player 3 discards a 0
+Player 3 draws a 3
+Player 3 draws a 5
+Player 3 discards a 5
+Player 3 draws a 8
+Player 3 discards a 8
+Player 3 draws a 2
+Player 3 discards a 2
+Player 3 draws a 4
+Player 3 discards a 4
+Player 3 draws a 1
+Player 3 discards a 1
+Player 3 draws a 3
+Player 3 draws a 5
+Player 3 discards a 5
+Player 3 draws a 8
+Player 3 discards a 8
+Player 3 draws a 7
+Player 3 discards a 7
+Player 3 draws a 6
+Player 3 discards a 6
+Player 3 draws a 3
+Player 3 draws a 5
+Player 3 discards a 5
+Player 3 draws a 8
+Player 3 discards a 8
+Player 3 draws a 7
+Player 3 discards a 7
+Player 3 draws a 6
+Player 3 discards a 6
+player 5 has informed player 3 that player 5 has won
+player 3 exits
+player 3 final hand: 3 3 3
+player 3 exits
+player 3 final hand: 3 3 3
+player 3 initial hand: 
+Player 3 draws a 1
+Player 3 discards a 1
+Player 3 draws a 9
+Player 3 discards a 9
+Player 3 draws a 4
+Player 3 discards a 4
+Player 3 draws a 0
+Player 3 discards a 0
+Player 3 draws a 3
+Player 3 draws a 5
+Player 3 discards a 5
+Player 3 draws a 8
+Player 3 discards a 8
+Player 3 draws a 2
+Player 3 discards a 2
+Player 3 draws a 4
+Player 3 discards a 4
+Player 3 draws a 1
+Player 3 discards a 1
+Player 3 draws a 3
+Player 3 draws a 5
+Player 3 discards a 5
+Player 3 draws a 8
+Player 3 discards a 8
+Player 3 draws a 7
+Player 3 discards a 7
+Player 3 draws a 6
+Player 3 discards a 6
+Player 3 draws a 3
+Player 3 draws a 5
+Player 3 discards a 5
+Player 3 draws a 8
+Player 3 discards a 8
+Player 3 draws a 7
+Player 3 discards a 7
+Player 3 draws a 6
+Player 3 discards a 6
+Player 3 draws a 9
+Player 3 discards a 9
+Player 3 draws a 7
+Player 3 discards a 7
+player 1 has informed player 3 that player 1 has won
+player 3 exits
+player 3 final hand: 3 3 3
+player 3 exits
+player 3 final hand: 3 3 3

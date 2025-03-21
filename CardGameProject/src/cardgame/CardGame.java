@@ -23,9 +23,10 @@ public class CardGame {
                 player.start();
             }
 
-            // Wait for all players to finish
-            for (Player player : players) {
-                player.join();
+            // Wait for all players to finish, if game is over
+        	for (Player player : players) {
+        		player.join();
+            	  
             }
 
             // Write final deck contents to files
