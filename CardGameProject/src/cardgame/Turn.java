@@ -1,5 +1,12 @@
 package cardgame;
 
+import java.util.List;
+import java.util.Random;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+
+
 //this class ensures that decks being used either side of a player are locked until they BOTH draw and discard as one atomic action
 //players can still take turns simultaneously as long as they don't pull from the same deck
 
@@ -19,18 +26,18 @@ public class Turn {
     
 
 private static void discardCard(Player player, CardDeck rightDeck) {	// static means we dont have to create a Turn instance every time a player uses these methods
-	    Card discardedCard = null;
 	    
-	    // find a card to discard
-	    for (int i = 0; i<player.getHand().size();i++) {
-	    	Card card = player.getHand().get(i);
-	  
-	        if (card.getValue() != player.getPlayerID()) {  // discard a card that is not of the player's preferred denomination
-	            discardedCard = card;
-	            break;
-	        }
+		List<Card> discardOptions = new ArrayList<>();
+	    for (Card card :player.getHand()) {
+	    	if (card.getValue() != player.getPlayerID()) {		//collect cards in hand that are not the palyerID
+	    		discardOptions.add(card);
+	    	}
 	    }
-	    
+	    Card discardedCard = null;
+	    if(!discardOptions.isEmpty()) {
+	    	Random rand = new Random();
+	    	discardedCard = discardOptions.get(rand.nextInt(discardOptions.size()));	//choose a random card from the discard options
+	    }
 	    // If a valid card is found to discard
 	    if (discardedCard != null) {
 	        player.getHand().remove(discardedCard);  // Remove the discarded card from the player's hand
