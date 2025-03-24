@@ -1,0 +1,24 @@
+player 3 initial hand: 3 3 3 3
+player 4 has informed player 3 that player 4 has won
+player 3 exits
+player 3 final hand: 3 3 3 3
+player 1 has informed player 3 that player 1 has won
+player 3 exits
+player 3 final hand: 3 3 3 3
+player 2 has informed player 3 that player 2 has won
+player 3 exits
+player 3 final hand: 3 3 3 3
+player 3 wins
+player 3 final hand: 3 3 3 3
+player 3 initial hand: 3 3 3 3
+player 2 has informed player 3 that player 2 has won
+player 3 exits
+player 3 final hand: 3 3 3 3
+player 4 has informed player 3 that player 4 has won
+player 3 exits
+player 3 final hand: 3 3 3 3
+player 1 has informed player 3 that player 1 has won
+player 3 exits
+player 3 final hand: 3 3 3 3
+player 3 wins
+player 3 final hand: 3 3 3 3

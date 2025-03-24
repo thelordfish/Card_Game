@@ -1,5 +1,5 @@
 package cardgame;
-
+//REVIEW
 import org.junit.Test;
 import java.util.*;
 
@@ -46,7 +46,24 @@ public class CardGameIntegrationTest {
         }
 
         // Verify exactly one player won
-        long winners = players.stream().filter(Player::checkForWin).count();
-        assertEquals(1, winners);
+        int winnerCount = 0;
+        try {
+	        java.lang.reflect.Method method = Player.class.getDeclaredMethod("checkForWin"); //method is a class from java.lang.reflect 
+	        method.setAccessible(true);
+	        for (Player p : players) {
+	            boolean hasWon = (boolean) method.invoke(p);  // ← invoke the method on the player
+	            
+	            if (hasWon == true) {
+	            	winnerCount++;
+	            	System.out.println("Winner: Player " + p.getPlayerID());
+	            }
+	        }
+	        		
+	        } catch (Exception e) {
+	        	e.printStackTrace();
+	        	fail("Reflection failed: " + e.getMessage());
+	        }
+
+        assertEquals(1, winnerCount);
     }
 }
