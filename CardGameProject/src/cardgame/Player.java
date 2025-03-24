@@ -15,7 +15,7 @@ public class Player extends Thread implements Runnable {
  private CardDeck leftDeck;  // The deck from which the player draws
  private CardDeck rightDeck;  // The deck to which the player discards
  
- private volatile boolean gameOver = false; //***flag to stop the players loop***
+ private static volatile boolean gameOver = false; //flag to stop the players loop - should prevent simultaneous winners
 
  
  public Player(int playerId) {
@@ -50,12 +50,15 @@ public class Player extends Thread implements Runnable {
     	 
     	 LogWriter.writeInitialHandToFile(this);	//starting hand written to player log
     	 
-         // If the player starts with 4 identical cards, they win
-         if (checkForWin()) {
-        	 Messager.notifyOtherPlayers(this);
-             System.out.println("Player " + playerId + " wins");
-             LogWriter.writeFinalHandToFile(this, "wins");
-             return;
+         // If the player starts with 4 identical cards, they win, put in synchronized block to prevent race conditions
+         synchronized (Player.class) {
+	    	 if (!gameOver && checkForWin()) {
+	    		 gameOver = true;
+	        	 Messager.notifyOtherPlayers(this);
+	             System.out.println("Player " + playerId + " wins");
+	             LogWriter.writeFinalHandToFile(this, "wins");
+	             return;
+	         }
          }
 
          
@@ -67,12 +70,15 @@ public class Player extends Thread implements Runnable {
 
         	    if (gameOver) break;
 
-        	    if (checkForWin()) {
-        	        System.out.println("Player " + playerId + " wins");
-        	        Messager.notifyOtherPlayers(this);
-        	        Thread.sleep(50);  //gives time for the message to be processed
-        	        LogWriter.writeFinalHandToFile(this, "wins");
-        	        break;
+        	    synchronized (Player.class) {		//prevents multiple threads winning simultaneously
+	        	    if (!gameOver && checkForWin()) {
+	        	    	gameOver = true;	//update flag
+	        	        System.out.println("Player " + playerId + " wins");
+	        	        Messager.notifyOtherPlayers(this);
+	        	        Thread.sleep(50);  //gives time for the message to be processed
+	        	        LogWriter.writeFinalHandToFile(this, "wins");
+	        	        break;
+	        	    }
         	    }
 
         	    Thread.sleep(10);

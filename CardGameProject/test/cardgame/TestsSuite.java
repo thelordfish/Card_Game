@@ -9,7 +9,7 @@ import org.junit.runners.Suite;
     CardDeckTest.class,
     PlayerTest.class,
     TurnConcurrencyTest.class,
-    CardGameIntegrationTest.class
+    OnlyFirstWinnerCounts.class
 })
 
 
