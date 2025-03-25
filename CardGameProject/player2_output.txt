@@ -1,58 +1,67 @@
-player 2 initial hand: 2 2 2 2
-player 3 has informed player 2 that player 3 has won
-player 2 exits
-player 2 final hand: 2 2 2 2
+player 2 initial hand: 5 1 9 6
+Player 2 draws a 4
+Player 2 discards a 5
+Player 2 draws a 1
+Player 2 discards a 1
+Player 2 draws a 3
+Player 2 discards a 3
+Player 2 draws a 5
+Player 2 discards a 1
+Player 2 draws a 4
+Player 2 discards a 4
+Player 2 draws a 2
+Player 2 discards a 5
+Player 2 draws a 1
+Player 2 discards a 6
 player 1 has informed player 2 that player 1 has won
 player 2 exits
-player 2 final hand: 2 2 2 2
+player 2 final hand: 9 4 2 1
+player 2 initial hand: 5 1 9 6
+Player 2 draws a 4
+Player 2 discards a 4
+Player 2 draws a 1
+Player 2 discards a 9
+Player 2 draws a 3
+Player 2 discards a 1
+Player 2 draws a 5
+Player 2 discards a 5
+Player 2 draws a 4
+Player 2 discards a 1
+Player 2 draws a 1
+Player 2 discards a 4
+Player 2 draws a 8
+Player 2 discards a 6
+Player 2 draws a 7
+Player 2 discards a 7
+player 1 has informed player 2 that player 1 has won
+player 2 exits
+player 2 final hand: 5 3 1 8
+player 2 initial hand: 5 1 9 6
+Player 2 draws a 4
+Player 2 discards a 4
+Player 2 draws a 1
+Player 2 discards a 9
+Player 2 draws a 3
+Player 2 discards a 1
+Player 2 draws a 5
+Player 2 discards a 3
+Player 2 draws a 8
+Player 2 discards a 1
+Player 2 draws a 1
+Player 2 discards a 1
+Player 2 draws a 7
+Player 2 discards a 6
+Player 2 draws a 6
+Player 2 discards a 6
+Player 2 draws a 2
+Player 2 discards a 5
+Player 2 draws a 4
+Player 2 discards a 5
+player 1 has informed player 2 that player 1 has won
+player 2 exits
+player 2 final hand: 8 7 2 4
+player 2 initial hand: 2 2 2 2
 player 4 has informed player 2 that player 4 has won
 player 2 exits
 player 2 final hand: 2 2 2 2
-player 2 wins
-player 2 final hand: 2 2 2 2
 player 2 initial hand: 2 2 2 2
-player 3 has informed player 2 that player 3 has won
-player 2 exits
-player 2 final hand: 2 2 2 2
-player 1 has informed player 2 that player 1 has won
-player 2 exits
-player 2 final hand: 2 2 2 2
-player 4 has informed player 2 that player 4 has won
-player 2 exits
-player 2 final hand: 2 2 2 2
-player 2 wins
-player 2 final hand: 2 2 2 2
-player 2 initial hand: 2 2 2 2
-player 1 has informed player 2 that player 1 has won
-player 2 exits
-player 2 final hand: 2 2 2 2
-player 4 has informed player 2 that player 4 has won
-player 2 exits
-player 2 final hand: 2 2 2 2
-player 3 has informed player 2 that player 3 has won
-player 2 exits
-player 2 final hand: 2 2 2 2
-player 2 wins
-player 2 final hand: 2 2 2 2
-player 2 initial hand: 2 2 2 2
-player 2 wins
-player 2 final hand: 2 2 2 2
-player 2 initial hand: 2 2 2 2
-player 4 has informed player 2 that player 4 has won
-player 2 exits
-player 2 final hand: 2 2 2 2
-player 3 has informed player 2 that player 3 has won
-player 2 exits
-player 2 final hand: 2 2 2 2
-player 1 has informed player 2 that player 1 has won
-player 2 exits
-player 2 final hand: 2 2 2 2
-player 2 wins
-player 2 final hand: 2 2 2 2
-player 2 initial hand: 2 2 2 2
-player 2 wins
-player 2 final hand: 2 2 2 2
-player 2 initial hand: 2 2 2 2
-player 3 has informed player 2 that player 3 has won
-player 2 exits
-player 2 final hand: 2 2 2 2

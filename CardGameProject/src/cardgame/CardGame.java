@@ -105,6 +105,8 @@ public class CardGame {
                 throw new IllegalArgumentException("Pack file size mismatch");
             }
         } catch (FileNotFoundException e) {
+        	System.out.println("Pack file not found");
+        	System.exit(1);
             e.printStackTrace();
         }
     }

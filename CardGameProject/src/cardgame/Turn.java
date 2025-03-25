@@ -3,8 +3,6 @@ package cardgame;
 import java.util.List;
 import java.util.Random;
 import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
 
 
 //this class ensures that decks being used either side of a player are locked until they BOTH draw and discard as one atomic action
@@ -12,12 +10,17 @@ import java.util.Random;
 
 public class Turn {
     public static void takeTurn(Player player, CardDeck leftDeck, CardDeck rightDeck) {
+    	
+    	if(Player.isGameOver()) return; //turn may have started before win was registered, check before locks
+    	
         // lock left and right decks in consistent order to avoid deadlocks
         Object firstLock = leftDeck.getDeckId() < rightDeck.getDeckId() ? leftDeck : rightDeck;
         Object secondLock = leftDeck.getDeckId() < rightDeck.getDeckId() ? rightDeck : leftDeck;
 
         synchronized (firstLock) {
             synchronized (secondLock) {
+            	
+            	if (Player.isGameOver()) return; //likewise check after locks, but not between draw and discard, to keep 4 cards in final hand
                 drawCard(player, rightDeck);
                 discardCard(player, leftDeck);
             }
