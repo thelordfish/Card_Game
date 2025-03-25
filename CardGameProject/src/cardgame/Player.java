@@ -10,8 +10,8 @@ import java.util.*;
 public class Player extends Thread implements Runnable {
  private int playerId;  // The ID of the player (1, 2, ... n)
  private List<Card> hand;  // List of cards that the player holds
- private CardDeck leftDeck;  // The deck from which the player draws
- private CardDeck rightDeck;  // The deck to which the player discards
+ private Deck leftDeck;  // The deck from which the player draws
+ private Deck rightDeck;  // The deck to which the player discards
  
  private static volatile boolean gameOver = false; //flag to stop the players loop - should prevent simultaneous winners
 
@@ -24,11 +24,11 @@ public class Player extends Thread implements Runnable {
      this.hand = new ArrayList<>(4);  // A player starts with 4 cards
  }
  
- public void setLeftDeck(CardDeck leftDeck) {
+ public void setLeftDeck(Deck leftDeck) {
 	 this.leftDeck = leftDeck;
  }
  
- public void setRightDeck(CardDeck rightDeck) {
+ public void setRightDeck(Deck rightDeck) {
 	 this.rightDeck = rightDeck;
  }
  

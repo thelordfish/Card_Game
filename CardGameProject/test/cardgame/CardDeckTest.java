@@ -6,13 +6,13 @@ import org.junit.Test;
 import java.util.*;
 
 public class CardDeckTest {
-    private CardDeck deck;
+    private Deck deck;
     private List<Card> cards;
 
     @Before
     public void setUp() {
         cards = new ArrayList<>(Arrays.asList(new Card(1), new Card(2), new Card(3), new Card(4)));
-        deck = new CardDeck(1, cards);
+        deck = new Deck(1, cards);
     }
 
     @Test

@@ -9,7 +9,7 @@ import java.util.ArrayList;
 //players can still take turns simultaneously as long as they don't pull from the same deck
 
 public class Turn {
-    public static void takeTurn(Player player, CardDeck leftDeck, CardDeck rightDeck) {
+    public static void takeTurn(Player player, Deck leftDeck, Deck rightDeck) {
     	
     	if(Player.isGameOver()) return; //turn may have started before win was registered, check before locks
     	
@@ -28,7 +28,7 @@ public class Turn {
     }
     
 
-private static void discardCard(Player player, CardDeck rightDeck) {	// static means we dont have to create a Turn instance every time a player uses these methods
+private static void discardCard(Player player, Deck rightDeck) {	// static means we dont have to create a Turn instance every time a player uses these methods
 	    
 		List<Card> discardOptions = new ArrayList<>();
 	    for (Card card :player.getHand()) {
@@ -54,7 +54,7 @@ private static void discardCard(Player player, CardDeck rightDeck) {	// static m
 	}
 
 
-private static void drawCard(Player player, CardDeck leftDeck) {
+private static void drawCard(Player player, Deck leftDeck) {
 	    // Draw a card from the leftDeck
 	    Card card = leftDeck.drawCard();
 	    if (card == null) {

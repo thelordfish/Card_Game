@@ -1,14 +1,14 @@
 package cardgame;
 
-//CardDeck.java
+//Deck.java
 import java.util.*;
 import java.io.*;
 
-public class CardDeck {
+public class Deck {
  private int deckId;  // The ID of the deck (1, 2, ...)
  private Queue<Card> cards;  // The cards in the deck
 
- public CardDeck(int deckId, List<Card> cards) {
+ public Deck(int deckId, List<Card> cards) {
      this.deckId = deckId;
      this.cards = new LinkedList<>(cards);
  }

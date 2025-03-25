@@ -7,13 +7,13 @@ import java.util.*;
 
 public class PlayerTest {
     private Player player;
-    private CardDeck leftDeck;
-    private CardDeck rightDeck;
+    private Deck leftDeck;
+    private Deck rightDeck;
 
     @Before
     public void setUp() {
-        leftDeck = new CardDeck(1, Arrays.asList(new Card(1), new Card(2), new Card(3), new Card(4)));
-        rightDeck = new CardDeck(2, new ArrayList<>());
+        leftDeck = new Deck(1, Arrays.asList(new Card(1), new Card(2), new Card(3), new Card(4)));
+        rightDeck = new Deck(2, new ArrayList<>());
         
         //make player and use player method to assign decks
         player = new Player(1);

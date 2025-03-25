@@ -6,8 +6,8 @@ import java.util.Arrays;
 public class AtomicTurnLocking {
 	@Test
 	public void testAtomicTurnLocking() throws InterruptedException {
-	    CardDeck sharedLeft = new CardDeck(1, Arrays.asList(new Card(1), new Card(2)));
-	    CardDeck sharedRight = new CardDeck(2, Arrays.asList(new Card(3), new Card(4)));
+	    Deck sharedLeft = new Deck(1, Arrays.asList(new Card(1), new Card(2)));
+	    Deck sharedRight = new Deck(2, Arrays.asList(new Card(3), new Card(4)));
 	
 	    Player p1 = new Player(1);
 	    Player p2 = new Player(2);

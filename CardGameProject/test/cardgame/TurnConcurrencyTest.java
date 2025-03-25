@@ -8,7 +8,7 @@ public class TurnConcurrencyTest {
 
     @Test
     public void testDeckDrawConcurrency() throws InterruptedException {
-        CardDeck sharedDeck = new CardDeck(1, new ArrayList<>(
+        Deck sharedDeck = new Deck(1, new ArrayList<>(
                 Arrays.asList(new Card(1), new Card(2), new Card(3), new Card(4))
         ));
 
