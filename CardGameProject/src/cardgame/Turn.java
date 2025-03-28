@@ -9,8 +9,10 @@ import java.util.ArrayList;
 //players can still take turns simultaneously as long as they don't pull from the same deck
 
 public class Turn {
+
     public static void takeTurn(Player player, Deck leftDeck, Deck rightDeck) {
-    	
+    	PlayerLogWriter logger = (PlayerLogWriter) LogWriterFactory.getPlayerLogger(player);
+
     	if(Player.isGameOver()) return; //turn may have started before win was registered, check before locks
     	
         // lock left and right decks in consistent order to avoid deadlocks
@@ -21,14 +23,14 @@ public class Turn {
             synchronized (secondLock) {
             	
             	if (Player.isGameOver()) return; //likewise check after locks, but not between draw and discard, to keep 4 cards in final hand
-                drawCard(player, rightDeck);
-                discardCard(player, leftDeck);
+                drawCard(player, rightDeck, logger);
+                discardCard(player, leftDeck, logger);
             }
         }
     }
     
 
-private static void discardCard(Player player, Deck rightDeck) {	// static means we dont have to create a Turn instance every time a player uses these methods
+private static void discardCard(Player player, Deck rightDeck, PlayerLogWriter logger) {	// static means we dont have to create a Turn instance every time a player uses these methods
 	    
 		List<Card> discardOptions = new ArrayList<>();
 	    for (Card card :player.getHand()) {
@@ -46,7 +48,7 @@ private static void discardCard(Player player, Deck rightDeck) {	// static means
 	        player.getHand().remove(discardedCard);  // Remove the discarded card from the player's hand
 	        rightDeck.discardCard(discardedCard);  // Discard the card to the rightDeck
 	        System.out.println("Player " + player.getPlayerID() + " discards a " + discardedCard.getValue() + " to deck " + rightDeck.getDeckId());
-	        LogWriter.writeToFile(player, "discards", discardedCard);
+	        logger.writeCardAction("discards", discardedCard);
 	    } else {
 	        // Handle case where no valid card is found to discard
 	        System.out.println("Player " + player.getPlayerID() + " has no card to discard.");
@@ -54,7 +56,7 @@ private static void discardCard(Player player, Deck rightDeck) {	// static means
 	}
 
 
-private static void drawCard(Player player, Deck leftDeck) {
+private static void drawCard(Player player, Deck leftDeck, PlayerLogWriter logger) {
 	    // Draw a card from the leftDeck
 	    Card card = leftDeck.drawCard();
 	    if (card == null) {
@@ -64,7 +66,7 @@ private static void drawCard(Player player, Deck leftDeck) {
 	    // Add the drawn card to the player's hand
 	    player.getHand().add(card);
 	    System.out.println("Player " + player.getPlayerID() + " draws a " + card.getValue() + " from deck " + leftDeck.getDeckId());
-	    LogWriter.writeToFile(player, "draws", card);
+	    logger.writeCardAction("draws", card);
 	}
 
 }

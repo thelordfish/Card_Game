@@ -8,10 +8,10 @@ import java.util.*;
  */
 
 public class Player extends Thread implements Runnable {
- private int playerId;  // The ID of the player (1, 2, ... n)
- private List<Card> hand;  // List of cards that the player holds
- private Deck leftDeck;  // The deck from which the player draws
- private Deck rightDeck;  // The deck to which the player discards
+ private int playerId;  
+ private List<Card> hand;  // list of cards that the player holds
+ private Deck leftDeck;  // deck from which the player draws
+ private Deck rightDeck;  // deck to which the player discards
  
  private static volatile boolean gameOver = false; //flag to stop the players loop - should prevent simultaneous winners
 
@@ -42,23 +42,25 @@ public class Player extends Thread implements Runnable {
  public int getPlayerID() {
      return playerId;
  }
+ 
+ LogWriterInterface logger = LogWriterFactory.getPlayerLogger(this);
+
 
 private void declareWin() throws InterruptedException {
 	gameOver = true;	//update flag
     System.out.println("Player " + playerId + " wins");
     Messager.notifyOtherPlayers(this);
     Thread.sleep(50);  //gives time for the message to be processed
-    LogWriter.writeFinalHandToFile(this, "wins");
+    logger.writeLog("win", -1);
 	}
 
  //How the player plays the game:
- //loops
  
  @Override
  public void run() {
      try {
     	 
-    	 LogWriter.writeInitialHandToFile(this);	//starting hand written to player log
+    	 logger.writeLog("initial", -1);	//starting hand written to player log
     	 
          // If the player starts with 4 identical cards, they win, put in synchronized block to prevent race conditions
          synchronized (Player.class) {
@@ -95,7 +97,7 @@ private void declareWin() throws InterruptedException {
  public void onGameEnd(int winnerId) {
      gameOver = true;  // stops player's loop
      System.out.println("Player " + playerId + " exits. Player " + winnerId + " has won.");
-     LogWriter.writeGameEndToFile(this, winnerId);  // log that they were informed by the winner
+     logger.writeLog("loss", winnerId);// log that they were informed by the winner
 
  }
  

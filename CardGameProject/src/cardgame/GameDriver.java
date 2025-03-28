@@ -15,6 +15,8 @@ public class GameDriver {
     private final List<Deck> decks = new ArrayList<>();
     private final List<Card> cardPack = new ArrayList<>();
     
+
+    
     private GameDriver() {};
     
     public static synchronized GameDriver getInstance() {
@@ -34,27 +36,27 @@ public class GameDriver {
             initializeHands();					//initialize hands before decks
             initializeDecks(numPlayers);
             assignDecks(numPlayers);
-            // Start the threads for each player
+            // start threads for each player
             for (Player player : players) {
                 player.start();
             }
 
-            // Wait for all players to finish, if game is over
+            // wait for all players to finish, if game is over
         	for (Player player : players) {
         		player.join();
             	  
             }
 
-            // Write final deck contents to files
+            // write final deck contents to files
             for (Deck deck : decks) {
-                deck.writeDeckToFile();
+            	LogWriterFactory.getDeckLogger(deck).writeLog("final", -1);
             }
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
 
-    // Method to get the number of players (via command line or JOptionPane)
+    // method to get the number of players usin JOptionPane
     private int getNumPlayers() {
         int numPlayers = 0;
         Scanner scanner = null;
@@ -77,7 +79,7 @@ public class GameDriver {
                 numPlayers = scanner.nextInt();
             }
         } finally {
-            // Always close the scanner after use to prevent resource leak
+            // close the scanner after use to prevent resource leak
             if (scanner != null) {
                 scanner.close();
             }
@@ -86,23 +88,21 @@ public class GameDriver {
         return numPlayers;
     }
 
-    // Method to get the location of the card pack file (via command line or JOptionPane)
+    // get the location of the card pack fie via JOptionPane)
     private String getPackLocation() {
         String packLocation = null;
         Scanner scanner = null;
 
         try {
-            // Try to get input via JOptionPane first
+            //  get input via JOptionPane first
             packLocation = JOptionPane.showInputDialog(null, "Enter the location of the card pack file:");
 
             if (packLocation == null || packLocation.isEmpty()) {
-                // Fallback to command-line input if JOptionPane is cancelled or empty
                 System.out.println("Please enter the location of the card pack file:");
                 scanner = new Scanner(System.in);  // Initialize scanner here
                 packLocation = scanner.nextLine();
             }
         } finally {
-            // Always close the scanner after use to prevent resource leak
             if (scanner != null) {
                 scanner.close();
             }
