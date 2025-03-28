@@ -11,7 +11,7 @@ public class GameDriver {
 	private static GameDriver instance;		//Singleton pattern, ensure only one instance of the game
 	
 	
-    private final List<Player> players = new ArrayList<>();
+    public final static List<Player> players = new ArrayList<>(); //public so messager can see it
     private final List<Deck> decks = new ArrayList<>();
     private final List<Card> cardPack = new ArrayList<>();
     
