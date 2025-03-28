@@ -83,7 +83,7 @@ private void declareWin() throws InterruptedException {
 	        	    }
         	    }
 
-        	    Thread.sleep(10);
+        	    Thread.sleep(100);
         }
 
          //LogWriter.writeFinalHandToFile(this, "exits");

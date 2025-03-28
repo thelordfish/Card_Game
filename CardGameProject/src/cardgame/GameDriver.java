@@ -11,7 +11,7 @@ public class GameDriver {
 	private static GameDriver instance;		//Singleton pattern, ensure only one instance of the game
 	
 	
-    public final static List<Player> players = new ArrayList<>(); //public so messager can see it
+    private final List<Player> players = new ArrayList<>(); 
     private final List<Deck> decks = new ArrayList<>();
     private final List<Card> cardPack = new ArrayList<>();
     
@@ -44,6 +44,7 @@ public class GameDriver {
             // wait for all players to finish, if game is over
         	for (Player player : players) {
         		player.join();
+        		
             	  
             }
 
